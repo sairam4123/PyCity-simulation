@@ -1,18 +1,20 @@
+This project has been deprecated. This is being superceded by a new project PyCity 3D (name not decided)
+
 # PyCity-simulation
 ![PyCity](src/images/pycity2.png)
 
-## Instalation
+## Installation
 
-  To play PyCity you first have to install pygame to install pygame open cmd or terminal and type:
+  To play PyCity, you first have to install pygame to install pygame open cmd or terminal and type:
 
-  In linux:
+  For linux:
 ```
 $ sudo apt update
 ```
 ```
 $ pip3 install pygame
 ```
-  In Windows:
+  For Windows:
 
 ```
 pip install pygame
@@ -20,21 +22,26 @@ pip install pygame
   For more info visit:
 [https://www.pygame.org/wiki/GettingStarted](https://www.pygame.org/wiki/GettingStarted)
 
->   When you have pygame installed cilck green "Clone or download" and click download .zip or clone it with git
+>   When you got pygame installed cilck green "Clone or download" and click download .zip or clone it with git
 
-  When files are downloaded go into src folder and run pycity.py
-  In windows double click it
-  In linux you can run it with python in terminal
+  Once the download completes, unzip it and go to src folder.
+  Open up Windows Command Prompt or Terminal (in Mac and Linux) and run the following command:
+```
+python pycity.py
+```
+  For Linux, you may need to run it like this.
 
 ```
 $ python3 pycity.py
 ```
-## How to play
+## How to play?
+
+It's simple like in other city building games.
 
 
 ## Building
-  Enter map size,diffculty,city name and press ENTER the game window should appear
-  To build hover with your mouse cursor over a square where you want to build and press one od the following keys:
+  Enter map size, diffculty, city name and press ENTER the game window should appear
+  To build hover with your mouse cursor over a square where you want to build and press one of the following keys:
 + R - build rezidential zone
 + C - build comercial zone
 + O - build road
@@ -44,7 +51,7 @@ $ python3 pycity.py
 + S - build prison
 + P - build park
 + I - build industrial zone
-+ E - erase a building
++ E - remove anything
 ## Indicators
   If you see square in right in one of following colors
 + Light blue - Police station needed
@@ -54,4 +61,10 @@ $ python3 pycity.py
 + Grey - Prison needed
 + White - Hospital needed
 ## Land value
-  Building parks increased land value,more parks,better rezidential zones
+  Building parks increase land value, so, more parks = better rezidential zones
+
+Thank you for trying out PyCity.
+
+Enjoy!
+
+Don't forget to join my discord server: https://discord.gg/puuF2BbRwU
